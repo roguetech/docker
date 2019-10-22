@@ -1,6 +1,6 @@
 cluster.name: elk-cluster
 node.name: ${HOSTNAME}
-path.data: /opt/elasticsearch/data
+path.data: /var/lib/elasticsearch
 path.logs: /var/log/elasticsearch
 bootstrap.memory_lock: true
 #network.host: [_local_,_ec2_]
