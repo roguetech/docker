@@ -1,5 +1,5 @@
 cluster.name: elk-cluster
-path.data: /usr/share/elasticsearch/data
+path.data: /opt/elasticsearch/data
 path.logs: /var/log/elasticsearch
 bootstrap.memory_lock: true
 network.host: 0.0.0.0
